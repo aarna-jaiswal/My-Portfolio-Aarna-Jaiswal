@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Freeman", sans-serif;
+}
+body {
+  color: #130f40;
+  margin: 0;
+  text-align: center;
+  background: lightcyan;
+}
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  display: block;
+  flex-wrap: nowrap;
+  box-sizing: content-box;
+}
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 200px;
+}
+.mountain {
+  width: 500px;
+  position: relative;
+  bottom: 30px;
+}
+h1 {
+  transform: scaleX(125%);
+  font-size: 90px;
+  display: inline;
+  margin: 50px auto 0 auto;
+}
+.tcloud{
+  position: absolute;
+  left: 50px;
+  top: 170px;
+}
+.cloud{
+  position: absolute;
+  left: 700px;
+  top: 50px;
+}
+.cloud1{
+  position: absolute;
+  left: 1190px;
+  top: 70px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+  top: 50px;
+}
+#proo{
+  font-size: 30px;
+}
+.pro{
+  color: #0652DD !important;
+}
+.middle-container {
+  margin-top: 30px;
+  display: block;
+  flex-wrap: nowrap;
+  box-sizing: content-box;
+}
+.image {
+  border-radius: 50%;
+}
+h2 {
+  font-weight: bold;
+  color: #130f40;
+  font-size: 40px;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: justify;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #130f40;
+  border-width: 5px;
+  width: 25%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.special-hr {
+  margin: auto;
+  width: 100%;
+}
+h3 {
+  color: #130f40;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.code-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.comp {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.profile-image {
+  width: 250px; 
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.message-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.last-container{
+  background-color: #e4f9f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-sizing: content-box;
+  height: 150px;
+}
+.last-container a {
+  text-decoration: none;
+  padding: 0 10px;
+}
+.last-container img {
+  transition: all .1s ease-out;
+  opacity: 0.7;
+}
+.last-container img:hover {
+  transform: scale(120%, 120%);
+  opacity: 1;
+}
